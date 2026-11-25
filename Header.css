@@ -1,0 +1,397 @@
+css
+/*  ANGEL'S DONUTS
+   MAIN WEBSITE STYLE */
+
+/* LOGIN PAGE */
+
+   body {
+    background-color: rgb(237, 241, 244);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.login-container img {
+    width: 180px;
+    margin-bottom: 20px;
+}
+h1 {
+    color: #003366;
+    margin-bottom: 25px;
+}
+input {
+    width: 250px;
+    padding: 12px;
+    margin: 8px;
+    border: none;
+    border-radius: 5px;
+}
+button {
+    width: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #ff1493;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* GENERAL */
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff6f8;
+    color: #4b3038;
+    line-height: 1.6;
+}
+
+/*HEADER */
+header {
+    background: linear-gradient(135deg, #fc86b1, #fb9cbc);
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+header h1 {
+    margin: 0 0 18px;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+/*  NAVIGATION */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 22px;
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+nav a:hover {
+    background: white;
+    color: #e75480;
+    transform: translateY(-2px);
+}
+
+/* MAIN CONTENT */
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+section {
+    background: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+section h2 {
+    color: #d9436b;
+    margin-top: 0;
+}
+
+/* WELCOME SECTION */
+section:first-of-type {
+    text-align: center;
+}
+section:first-of-type h2 {
+    font-size: 30px;
+    color: #d9436b;
+}
+section:first-of-type p {
+    font-size: 18px;
+    color: #6b555b;
+}
+
+/*  DONUT PRODUCTS */
+#menu {
+    text-align: center;
+}
+article {
+    background: #fff1f4;
+    border: 2px solid #ffd1dc;
+    border-radius: 18px;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 650px;
+    transition: 0.3s ease;
+}
+article:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.12);
+}
+article h3 {
+    color: #c83d63;
+    font-size: 22px;
+}
+article strong {
+    color: #d63362;
+    font-size: 18px;
+}
+
+/* BUTTONS */
+button {
+    background: #e75480;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    margin: 5px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+button:hover {
+    background: #c93d68;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 12px rgba(201, 61, 104, 0.3);
+}
+button:active {
+    transform: scale(0.97);
+}
+
+/* FORM */
+form {
+    max-width: 650px;
+    margin: auto;
+}
+label {
+    font-weight: bold;
+    color: #593c44;
+}
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 12px 14px;
+    margin-top: 6px;
+    border: 2px solid #f2b8c7;
+    border-radius: 10px;
+    background: #fffafb;
+    color: #4b3038;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+textarea {
+    min-height: 110px;
+    resize: vertical;
+}
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    border-color: #e75480;
+    background: white;
+    box-shadow: 0 0 7px rgba(231, 84, 128, 0.25);
+}
+
+/* LOGIN PAGE */
+.login-container {
+    width: 90%;
+    max-width: 430px;
+    margin: 60px auto;
+    padding: 35px;
+    background: white;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.13);
+}
+
+/* LOGIN TITLE */
+
+.login-container h1 {
+    color: #d9436b;
+    margin: 10px 0 25px;
+    font-size: 28px;
+}
+
+/* LOGIN CENTER IMAGE */
+.center-image {
+    display: block;
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    margin: 0 auto 20px auto;
+    border-radius: 50%;
+    border: 6px solid #ffb3c6;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    background: white;
+}
+
+/* LOGIN FORM */
+
+.login-container form {
+    width: 100%;
+    text-align: left;
+}
+.login-container button {
+    display: block;
+    width: 100%;
+    margin: 20px 0 0;
+}
+
+/* SHOPPING CART */
+.cart-item {
+    
+    background: #fff1f4;
+    border: 2px solid #ffd1dc;
+    border-radius: 18px;
+    padding: 22px;
+    margin-bottom: 18px;
+}
+.cart-item h3 {
+    color: #c83d63;
+    margin-top: 0;
+}
+.cart-item input[type="number"] {
+    width: 90px;
+    display: inline-block;
+    margin-right: 8px;
+}
+#grandTotal {
+    color: #d63362;
+    font-size: 30px;
+}
+
+/* CHECKOUT */
+main > section h2 {
+    border-bottom: 2px solid #ffd1dc;
+    padding-bottom: 10px;
+}
+form h2 {
+    margin-top: 25px;
+    color: #d9436b;
+}
+form h3 {
+    background: #fff1f4;
+    border-radius: 12px;
+    padding: 15px;
+    color: #d63362;
+}
+
+/*  RADIO BUTTONS */
+input[type="radio"] {
+    width: auto;
+    margin-right: 8px;
+    accent-color: #e75480;
+}
+
+/*  STAR RATING */
+#stars {
+    text-align: center;
+    font-size: 42px;
+    letter-spacing: 5px;
+    margin: 15px 0;
+}
+#stars span {
+    color: #bdbdbd;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+#stars span:hover {
+    color: #ffc107;
+    transform: scale(1.15);
+    display: inline-block;
+}
+#rating {
+    color: #e75480;
+    font-size: 20px;
+}
+#feedbackMessage {
+    color: #d63362;
+    font-weight: bold;
+}
+
+/* HORIZONTAL LINE */
+
+hr {
+    border: none;
+    border-top: 2px solid #ffd1dc;
+    margin: 25px 0;
+}
+
+/*  FOOTER */
+footer {
+    background: #4b3038;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+    margin-top: 50px;
+}
+footer h3 {
+    color: #ffb3c6;
+    font-size: 25px;
+    margin-top: 0;
+}
+footer p {
+    margin: 7px 0;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 25px;
+    }
+    nav {
+        flex-direction: column;
+        gap: 5px;
+    }
+    nav a {
+        width: 210px;
+        text-align: center;
+    }
+    main {
+        width: 94%;
+        margin: 25px auto;
+    }
+    section {
+        padding: 20px;
+    }
+    article {
+        padding: 18px;
+    }
+    button {
+        width: 100%;
+        margin: 6px 0;
+    }
+    .cart-item input[type="number"] {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    .login-container {
+        width: 92%;
+        margin: 30px auto;
+        padding: 25px;
+    }
+    .center-image {
+        width: 140px;
+        height: 140px;
+    }
+}
+
+
+
